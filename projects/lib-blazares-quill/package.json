@@ -8,5 +8,26 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "description": "BlazaresQuill rich text editor component for Angular.",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scherenhaenden/BlazaresQuill.git",
+    "directory": "projects/lib-blazares-quill"
+  },
+  "homepage": "https://github.com/scherenhaenden/BlazaresQuill/tree/main/projects/lib-blazares-quill#readme",
+  "bugs": {
+    "url": "https://github.com/scherenhaenden/BlazaresQuill/issues"
+  },
+  "keywords": [
+    "angular",
+    "blazaresquill",
+    "editor",
+    "rich-text-editor",
+    "wysiwyg"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
