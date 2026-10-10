@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MagnetarQuill": {
+    "BlazaresQuill": {
       "projectType": "application",
       "root": "",
       "sourceRoot": "src",
@@ -12,7 +12,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/magnetar-quill",
+            "outputPath": "dist/blazares-quill",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "MagnetarQuill:build:production"
+              "buildTarget": "BlazaresQuill:build:production"
             },
             "development": {
-              "buildTarget": "MagnetarQuill:build:development"
+              "buildTarget": "BlazaresQuill:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "MagnetarQuill:build"
+            "buildTarget": "BlazaresQuill:build"
           }
         },
         "test": {
@@ -103,23 +103,23 @@
         }
       }
     },
-    "lib-magnetar-quill": {
+    "lib-blazares-quill": {
       "projectType": "library",
-      "root": "projects/lib-magnetar-quill",
-      "sourceRoot": "projects/lib-magnetar-quill/src",
+      "root": "projects/lib-blazares-quill",
+      "sourceRoot": "projects/lib-blazares-quill/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular/build:ng-packagr",
           "options": {
-            "project": "projects/lib-magnetar-quill/ng-package.json"
+            "project": "projects/lib-blazares-quill/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/lib-magnetar-quill/tsconfig.lib.prod.json"
+              "tsConfig": "projects/lib-blazares-quill/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/lib-magnetar-quill/tsconfig.lib.json"
+              "tsConfig": "projects/lib-blazares-quill/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -127,7 +127,7 @@
         "test": {
           "builder": "@angular/build:karma",
           "options": {
-            "tsConfig": "projects/lib-magnetar-quill/tsconfig.spec.json",
+            "tsConfig": "projects/lib-blazares-quill/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -139,8 +139,8 @@
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/lib-magnetar-quill/**/*.ts",
-              "projects/lib-magnetar-quill/**/*.html"
+              "projects/lib-blazares-quill/**/*.ts",
+              "projects/lib-blazares-quill/**/*.html"
             ]
           }
         }

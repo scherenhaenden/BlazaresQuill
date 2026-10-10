@@ -1,17 +1,17 @@
 import { expect, test } from '@playwright/test';
 
-test.describe('MagnetarQuill demo workflows', () => {
+test.describe('BlazaresQuill demo workflows', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('heading', { name: 'MagnetarQuill Demo' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'BlazaresQuill Demo' })).toBeVisible();
   });
 
   test('edits content and applies bold formatting', async ({ page }) => {
-    const editor = page.locator('magnetar-quill').first().locator('div.editor[contenteditable="true"]');
+    const editor = page.locator('blazares-quill').first().locator('div.editor[contenteditable="true"]');
 
     await editor.fill('N2N editor content');
     await editor.press(process.platform === 'darwin' ? 'Meta+A' : 'Control+A');
-    await page.locator('magnetar-quill').first().getByRole('button', { name: 'B', exact: true }).click();
+    await page.locator('blazares-quill').first().getByRole('button', { name: 'B', exact: true }).click();
 
     await expect(editor).toContainText('N2N editor content');
     await expect(editor.locator('b, strong')).toContainText('N2N editor content');
@@ -21,11 +21,11 @@ test.describe('MagnetarQuill demo workflows', () => {
   test('changes the host theme for both editors', async ({ page }) => {
     await page.locator('#demo-theme').selectOption('dark');
 
-    await expect(page.locator('magnetar-quill.theme-dark')).toHaveCount(2);
+    await expect(page.locator('blazares-quill.theme-dark')).toHaveCount(2);
   });
 
   test('inserts a table through the toolbar workflow', async ({ page }) => {
-    const editor = page.locator('magnetar-quill').first();
+    const editor = page.locator('blazares-quill').first();
     const editable = editor.locator('div.editor[contenteditable="true"]');
 
     await editable.click();

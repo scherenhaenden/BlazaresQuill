@@ -1,4 +1,4 @@
-# Status of MagnetarQuill
+# Status of BlazaresQuill
 
 ## Progress Summary
 **Overall completion:** 49% (effort-based, 19/39 pts completed)
@@ -21,6 +21,6 @@
    **Mitigation:** Keep historical registry blockers visible and rerun install, lint, build, and library build after framework upgrades.
 
 ## Current Validation Notes
-- Bound editor formatting sync was verified with `npm run build-lib`, `npm run lint:info-docs`, and `npm run test-lib-magnetar-quill` (`164 SUCCESS`, branch coverage `56.06%` over the `55%` threshold).
+- Bound editor formatting sync was verified with `npm run build-lib`, `npm run lint:info-docs`, and `npm run test-lib-blazares-quill` (`164 SUCCESS`, branch coverage `56.06%` over the `55%` threshold).
 - Library and workspace package metadata are aligned to version `0.11.0`.
 - Theme, import/export, and table workflows are covered by the Playwright N2N suite in CI.

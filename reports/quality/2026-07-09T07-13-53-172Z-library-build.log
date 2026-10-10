@@ -1,17 +1,17 @@
 
-> magnetar-quill@0.10.3 build-lib
-> ng build lib-magnetar-quill
+> blazares-quill@0.10.3 build-lib
+> ng build lib-blazares-quill
 
 Building Angular Package
 
 ------------------------------------------------------------------------------
-Building entry point 'magnetar-quill'
+Building entry point 'blazares-quill'
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
 Built Angular Package
-- from: /home/edward/Development/MagnetarQuill/projects/lib-magnetar-quill
-- to:   /home/edward/Development/MagnetarQuill/dist/lib-magnetar-quill
+- from: /home/edward/Development/BlazaresQuill/projects/lib-blazares-quill
+- to:   /home/edward/Development/BlazaresQuill/dist/lib-blazares-quill
 ------------------------------------------------------------------------------
 
 Build at: 2026-07-09T07:13:54.967Z - Time: 1289ms
@@ -24,4 +24,4 @@ Build at: 2026-07-09T07:13:54.967Z - Time: 1289ms
 ✔ Copying assets
 - Writing package manifest
 ✔ Writing package manifest
-✔ Built magnetar-quill
+✔ Built blazares-quill

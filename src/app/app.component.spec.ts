@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'MagnetarQuill' title`, () => {
+  it(`should have the 'BlazaresQuill' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('MagnetarQuill Demo');
+    expect(app.title).toEqual('BlazaresQuill Demo');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('MagnetarQuill Demo');
+    expect(compiled.querySelector('h1')?.textContent).toContain('BlazaresQuill Demo');
   });
 });

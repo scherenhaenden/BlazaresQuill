@@ -1,4 +1,4 @@
-# Canonical Plan of MagnetarQuill
+# Canonical Plan of BlazaresQuill
 
 This plan captures milestones, tasks, effort estimates, and task status; its structure must be kept intact.
 

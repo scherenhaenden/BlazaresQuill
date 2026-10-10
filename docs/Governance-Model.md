@@ -1,7 +1,7 @@
-# Canonical Project Model of MagnetarQuill
+# Canonical Project Model of BlazaresQuill
 
 ## Purpose
-MagnetarQuill exists to provide a structured, auditable way to build and evolve the MagnetarQuill editor and related deliverables. This repository follows the Magnetar standard for documentation, planning, and governance so that humans and AI collaborators can work consistently, transparently, and safely.
+BlazaresQuill exists to provide a structured, auditable way to build and evolve the BlazaresQuill editor and related deliverables. This repository follows the Blazares standard for documentation, planning, and governance so that humans and AI collaborators can work consistently, transparently, and safely.
 
 ## Current Editor Validation
 

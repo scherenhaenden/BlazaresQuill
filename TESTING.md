@@ -1,4 +1,4 @@
-# Testing Strategy for MagnetarQuill
+# Testing Strategy for BlazaresQuill
 
 ## Types of Tests
 - **Unit Tests:** Validate command execution, state transitions, and serialization helpers.

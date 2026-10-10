@@ -1,4 +1,4 @@
-# MagnetarQuill Project Targets
+# BlazaresQuill Project Targets
 
 ## 1. Requirements Engineering (RE)
 - **Status**: ![✔️](https://img.shields.io/badge/Status-Done-brightgreen)

@@ -1,4 +1,4 @@
 
-> magnetar-quill@0.10.3 lint:styles
+> blazares-quill@0.10.3 lint:styles
 > node scripts/style-lint.mjs
 

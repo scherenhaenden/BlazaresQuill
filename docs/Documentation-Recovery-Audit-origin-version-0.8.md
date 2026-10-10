@@ -1,6 +1,6 @@
 # Documentation Recovery Audit (Baseline: `origin/version/0.8`)
 
-This document records the results of auditing and recovering MagnetarQuill documentation files that were damaged or replaced during automated project migrations.
+This document records the results of auditing and recovering BlazaresQuill documentation files that were damaged or replaced during automated project migrations.
 
 ## Branch & Ref Inventory
 
@@ -13,13 +13,13 @@ The following branches were audited for documentation modifications:
 ## Findings & Changes
 
 ### 1. Root `README.md`
-- **Old Status (`0.8`):** Product-oriented README highlighting MagnetarQuill's features, installation guide, quick start imports, theming examples, and a Project Progress checklist table.
+- **Old Status (`0.8`):** Product-oriented README highlighting BlazaresQuill's features, installation guide, quick start imports, theming examples, and a Project Progress checklist table.
 - **Wrong Status (`0.9` to `HEAD` before recovery):** A generic template explaining the "Canonical Project Model" structure and schemas, devoid of any editor-specific details.
 - **Action Taken:**
   - Restored the root `README.md` as a product-focused document, based on the `0.8` version.
-  - Updated the repository URL to `https://github.com/scherenhaenden/MagnetarQuill.git` and version references to `0.10.4`.
+  - Updated the repository URL to `https://github.com/scherenhaenden/BlazaresQuill.git` and version references to `0.10.4`.
   - Added `npm run quality:report` under available commands and documented the quality validation suite.
-  - Moved the generic Canonical Project Model template text to a dedicated file: [docs/Governance-Model.md](file:///home/edward/Development/MagnetarQuill/docs/Governance-Model.md).
+  - Moved the generic Canonical Project Model template text to a dedicated file: [docs/Governance-Model.md](file:///home/edward/Development/BlazaresQuill/docs/Governance-Model.md).
 
 ### 2. Project Progress Table (Root `README.md`)
 - **Old Status (`0.8`):** Steps 8 to 12 were marked `🔄 In Progress`, and later steps were marked `🔴 Not Started`.

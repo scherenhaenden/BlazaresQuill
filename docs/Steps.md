@@ -1,4 +1,4 @@
-### **MagnetarQuill - Step Plan for Next 20 Iterations (Version 1)**
+### **BlazaresQuill - Step Plan for Next 20 Iterations (Version 1)**
 
 ---
 
@@ -111,4 +111,4 @@
 
 ---
 
-These 21 steps represent the initial iterations needed to build a functional core of the MagnetarQuill editor, focusing on text formatting, content structuring, media management, and early plugin support. Let me know if you need further refinements or next steps!
+These 21 steps represent the initial iterations needed to build a functional core of the BlazaresQuill editor, focusing on text formatting, content structuring, media management, and early plugin support. Let me know if you need further refinements or next steps!

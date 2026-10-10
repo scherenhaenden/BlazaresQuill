@@ -26,8 +26,8 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "lib-magnetar-quill": [
-        "projects/lib-magnetar-quill/src/public-api.ts"
+      "lib-blazares-quill": [
+        "projects/lib-blazares-quill/src/public-api.ts"
       ]
     }
   },

@@ -1,15 +1,15 @@
-# **MagnetarQuill** 🖋✨  
+# **BlazaresQuill** 🖋✨  
 > **The Next-Gen Universe-Inspired WYSIWYG Editor - Built with Angular** 🚀💫  
 
-![MagnetarQuill](magnetar-quill.png)
+![BlazaresQuill](blazares-quill.png)
 
-**MagnetarQuill** is a versatile, extensible, and powerful **WYSIWYG editor** built with **Angular**, designed to streamline content creation with **rich text**, **media**, **tables**, and more. MagnetarQuill stands out with its **plugin architecture**, **cross-browser support**, and stunning **theming options**.
+**BlazaresQuill** is a versatile, extensible, and powerful **WYSIWYG editor** built with **Angular**, designed to streamline content creation with **rich text**, **media**, **tables**, and more. BlazaresQuill stands out with its **plugin architecture**, **cross-browser support**, and stunning **theming options**.
 
-Inspired by the most extreme phenomena in the universe, the **Magnetar**, and combined with the elegance of a quill, this editor takes your text editing experience beyond the ordinary.
+Inspired by the most extreme phenomena in the universe, the **Blazares**, and combined with the elegance of a quill, this editor takes your text editing experience beyond the ordinary.
 
 ---
 ## **Current view** 🌟
-![MagnetarQuill](magnetar-quill-example.png)
+![BlazaresQuill](blazares-quill-example.png)
 
 ---
 
@@ -32,7 +32,7 @@ Inspired by the most extreme phenomena in the universe, the **Magnetar**, and co
 
 ## **Features** 🌟
 
-MagnetarQuill is packed with features to meet all your content creation needs:
+BlazaresQuill is packed with features to meet all your content creation needs:
 
 - 🖋 **Text Formatting**: Support for **bold**, **italic**, **underline**, **strikethrough**, and more.
 - 🎨 **Custom Fonts and Colors**: Easily change fonts, text colors, and background colors.
@@ -42,7 +42,7 @@ MagnetarQuill is packed with features to meet all your content creation needs:
 - ✂ **Rich Clipboard Support**: Cut, copy, and paste rich text, media, and external content.
 - 🔄 **Undo/Redo History**: Track changes with native browser undo/redo support.
 - 🌐 **Cross-Browser & Responsive**: Full support across Chrome, Firefox, Safari, Edge, and mobile browsers.
-- 🎛 **Plugin Architecture**: Extend MagnetarQuill with custom plugins for endless possibilities.
+- 🎛 **Plugin Architecture**: Extend BlazaresQuill with custom plugins for endless possibilities.
 - 🎨 **Theme Support**: Light, dark, and fully customizable themes with localization options.
 - 💾 **Export & Import**: Save your work as **HTML**, **Markdown**, **RTF**, or **PDF**.
 
@@ -51,21 +51,21 @@ MagnetarQuill is packed with features to meet all your content creation needs:
 ## **Installation** 🛠
 
 ### Prerequisites
-- **Node.js** (v18.x or higher) and **Angular CLI** (v18.x or higher, verified on Angular 22) — *only needed if you plan to build or customize MagnetarQuill within an Angular environment.*
+- **Node.js** (v18.x or higher) and **Angular CLI** (v18.x or higher, verified on Angular 22) — *only needed if you plan to build or customize BlazaresQuill within an Angular environment.*
 
-> **Note**: For general use in frameworks like React or Vue, or in vanilla JavaScript, you can use MagnetarQuill as a standalone web component without Angular-specific prerequisites.
+> **Note**: For general use in frameworks like React or Vue, or in vanilla JavaScript, you can use BlazaresQuill as a standalone web component without Angular-specific prerequisites.
 
-To install the MagnetarQuill library from npm, run the following command:
+To install the BlazaresQuill library from npm, run the following command:
 
 ```bash
-npm i --save magnetar-quill
+npm i --save blazares-quill
 ```
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/scherenhaenden/MagnetarQuill.git
-cd MagnetarQuill
+git clone https://github.com/scherenhaenden/BlazaresQuill.git
+cd BlazaresQuill
 ```
 
 ### Step 2: Install Dependencies
@@ -80,31 +80,31 @@ npm install
 ng serve
 ```
 
-Open your browser at [http://localhost:4200](http://localhost:4200) to see **MagnetarQuill** in action!
+Open your browser at [http://localhost:4200](http://localhost:4200) to see **BlazaresQuill** in action!
 
 ---
 
 ## **Quick Start** 🚀
 
-To get up and running with **MagnetarQuill**:
+To get up and running with **BlazaresQuill**:
 
-1. Import the core `MagnetarQuillModule` into your **Angular** application.
+1. Import the core `BlazaresQuillModule` into your **Angular** application.
    
     ```typescript
-    import { MagnetarQuillModule } from 'magnetar-quill';
+    import { BlazaresQuillModule } from 'blazares-quill';
 
     @NgModule({
-      imports: [MagnetarQuillModule],
+      imports: [BlazaresQuillModule],
       declarations: [AppComponent],
       bootstrap: [AppComponent],
     })
     export class AppModule {}
     ```
 
-2. Add the **MagnetarQuill** component to your template:
+2. Add the **BlazaresQuill** component to your template:
    
     ```html
-    <magnetar-quill [(ngModel)]="documentContent"></magnetar-quill>
+    <blazares-quill [(ngModel)]="documentContent"></blazares-quill>
     ```
 
 3. Start editing with a galaxy of rich features at your fingertips!
@@ -117,26 +117,26 @@ To get up and running with **MagnetarQuill**:
 
 Format text using **bold**, **italic**, **underline**, and **strikethrough** options:
 ```html
-<magnetar-quill></magnetar-quill>
+<blazares-quill></blazares-quill>
 ```
 
 You can also style text with **headers**, **lists**, and **blockquotes**:
 ```html
-<magnetar-quill [formatOptions]="['headers', 'lists', 'blockquotes']"></magnetar-quill>
+<blazares-quill [formatOptions]="['headers', 'lists', 'blockquotes']"></blazares-quill>
 ```
 
 ### **Image and Media Insertion**
 
 Upload and edit images with resizing, alignment, and captions:
 ```html
-<magnetar-quill [mediaOptions]="['images', 'videos']"></magnetar-quill>
+<blazares-quill [mediaOptions]="['images', 'videos']"></blazares-quill>
 ```
 
 ### **Clipboard Support**
 
-MagnetarQuill handles pasted content seamlessly:
+BlazaresQuill handles pasted content seamlessly:
 ```html
-<magnetar-quill enableClipboardSupport="true"></magnetar-quill>
+<blazares-quill enableClipboardSupport="true"></blazares-quill>
 ```
 
 ### **File Export & Import**
@@ -151,7 +151,7 @@ const markdownContent = this.editor.exportAsMarkdown();
 
 ## **Plugin Architecture** 🔌
 
-MagnetarQuill is built with extensibility in mind. You can easily add custom plugins to extend functionality.
+BlazaresQuill is built with extensibility in mind. You can easily add custom plugins to extend functionality.
 
 ### **Creating a Plugin**
 
@@ -165,7 +165,7 @@ MagnetarQuill is built with extensibility in mind. You can easily add custom plu
     };
     ```
 
-2. Register the plugin with **MagnetarQuill**:
+2. Register the plugin with **BlazaresQuill**:
     ```typescript
     this.editor.registerPlugin(myPlugin);
     ```
@@ -182,13 +182,13 @@ Extend the editor with limitless possibilities! 🎉
 
 ## **Theming & Customization** 🎨
 
-MagnetarQuill provides full support for **light** and **dark** themes, along with the ability to create **custom themes**.
+BlazaresQuill provides full support for **light** and **dark** themes, along with the ability to create **custom themes**.
 
 ### **Light/Dark Mode Switch**
 
 Toggle between light and dark modes:
 ```html
-<magnetar-quill [theme]="dark ? 'dark' : 'light'"></magnetar-quill>
+<blazares-quill [theme]="dark ? 'dark' : 'light'"></blazares-quill>
 ```
 
 ### **Custom Themes**
@@ -257,7 +257,7 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ## **License** 📄
 
-MagnetarQuill is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License. You are free to use, distribute, and build upon this work, as long as proper attribution is given. See the [LICENSE](LICENSE) file for more details.
+BlazaresQuill is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License. You are free to use, distribute, and build upon this work, as long as proper attribution is given. See the [LICENSE](LICENSE) file for more details.
 
 
 ---
@@ -265,7 +265,7 @@ MagnetarQuill is licensed under the **Creative Commons Attribution 4.0 Internati
 ## **Stay Connected** 💬
 
 Follow us for updates, news, and more:
-- **GitHub Discussions**: [MagnetarQuill Discussions](https://github.com/scherenhaenden/MagnetarQuill/discussions)
+- **GitHub Discussions**: [BlazaresQuill Discussions](https://github.com/scherenhaenden/BlazaresQuill/discussions)
 
 
 ---

@@ -1,4 +1,4 @@
-### MagnetarQuill - **Version 1 Specification**
+### BlazaresQuill - **Version 1 Specification**
 ---
 
 

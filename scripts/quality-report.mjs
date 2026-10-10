@@ -25,7 +25,7 @@ const STEPS = [
   {
     name: 'Library tests with coverage',
     command: 'npx',
-    args: ['ng', 'test', 'lib-magnetar-quill', '--watch=false', '--code-coverage', '--browsers=ChromeHeadless', '--no-progress'],
+    args: ['ng', 'test', 'lib-blazares-quill', '--watch=false', '--code-coverage', '--browsers=ChromeHeadless', '--no-progress'],
   },
   {
     name: 'Library build',
@@ -99,7 +99,7 @@ function parseCoverageSummary(testOutput) {
 }
 
 function parseLcovFallback() {
-  const lcovPath = path.join(ROOT, 'coverage', 'lib-magnetar-quill', 'lcov.info');
+  const lcovPath = path.join(ROOT, 'coverage', 'lib-blazares-quill', 'lcov.info');
   if (!fs.existsSync(lcovPath)) {
     return [];
   }

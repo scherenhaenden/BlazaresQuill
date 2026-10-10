@@ -1,9 +1,9 @@
-# Architecture of MagnetarQuill
+# Architecture of BlazaresQuill
 
 ## High-Level Architecture Diagram
 ```text
 +--------------------+        +---------------------+        +--------------------+
-| Host Angular App   | <----> | MagnetarQuill API   | <----> | Editor Core Engine |
+| Host Angular App   | <----> | BlazaresQuill API   | <----> | Editor Core Engine |
 | (consumer)         |        | (component facade)  |        | (commands/state)   |
 +--------------------+        +---------------------+        +--------------------+
                                          |                              |
@@ -24,7 +24,7 @@
 - **Host Angular App**
   - **Responsibility:** Integrates the editor and binds content to business flows.
   - **Technology:** Angular.
-- **MagnetarQuill API (Component Facade)**
+- **BlazaresQuill API (Component Facade)**
   - **Responsibility:** Exposes public inputs/outputs, command bindings, and lifecycle hooks.
   - **Technology:** Angular standalone component patterns.
 - **Editor Core Engine**

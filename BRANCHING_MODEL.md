@@ -1,6 +1,6 @@
 # Branching Model
 
-This project uses a Magnetar-adapted GitFlow model.
+This project uses a Blazares-adapted GitFlow model.
 
 ## Long-Lived Branches
 - `master`: Production-ready, immutable release line.

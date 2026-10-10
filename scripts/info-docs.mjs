@@ -12,7 +12,7 @@ if (!CHECK_MODE && !WRITE_MODE) {
 }
 
 const TARGET_ROOTS = [
-  'projects/lib-magnetar-quill/src/lib',
+  'projects/lib-blazares-quill/src/lib',
   'src/app'
 ];
 

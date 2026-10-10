@@ -1,17 +1,17 @@
-# Canonical Ruleset of MagnetarQuill
+# Canonical Ruleset of BlazaresQuill
 
 ## Introduction
-These rules codify the Magnetar standard for project governance, planning, and execution. All project activity must comply unless a formal exception is explicitly documented in `BITACORA.md`.
+These rules codify the Blazares standard for project governance, planning, and execution. All project activity must comply unless a formal exception is explicitly documented in `BITACORA.md`.
 
 ## Naming Conventions
-- **Repositories:** `magnetar-<domain>-<descriptor>`
+- **Repositories:** `blazares-<domain>-<descriptor>`
 - **Branches:** `<type>/<short-description>` where `type ∈ {feature, fix, chore, experiment, hotfix}`
 - **Tasks and blockers:** `kebab-case` (e.g., `task-202`, `blocker-db-outage`)
 - **YAML keys:** `lower_snake_case`
 - **File names:** Must mirror canonical repository filenames
 
 ## Required Files
-Every Magnetar project must include:
+Every Blazares project must include:
 - `README.md`
 - `PLAN.md`
 - `BITACORA.md`

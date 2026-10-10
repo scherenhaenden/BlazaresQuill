@@ -1,6 +1,6 @@
 <div class="app-container">
   <header class="app-header">
-    <h1 class="app-title">MagnetarQuill Demo</h1>
+    <h1 class="app-title">BlazaresQuill Demo</h1>
     <p class="app-subtitle">Test the WYSIWYG Editor in Real Time</p>
     <div class="demo-theme-selector">
       <label for="demo-theme">Host Theme Controller: </label>
@@ -17,15 +17,15 @@
          [style.width.%]="editorWidth"
          #editorSection>
       <h2 class="section-title">Editor</h2>
-      <div class="lib-magnetar-quill-container">
-        <magnetar-quill [(content)]="testText"
+      <div class="lib-blazares-quill-container">
+        <blazares-quill [(content)]="testText"
                         (contentChange)="onContentChange()"
                         [theme]="editorTheme"
-                        (themeChange)="editorTheme = $event"></magnetar-quill>
-        <magnetar-quill [(content)]="testText"
+                        (themeChange)="editorTheme = $event"></blazares-quill>
+        <blazares-quill [(content)]="testText"
                         (contentChange)="onContentChange()"
                         [theme]="editorTheme"
-                        (themeChange)="editorTheme = $event"></magnetar-quill>
+                        (themeChange)="editorTheme = $event"></blazares-quill>
       </div>
     </div>
 

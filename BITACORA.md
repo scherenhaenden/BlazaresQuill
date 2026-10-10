@@ -1,4 +1,4 @@
-# Logbook of MagnetarQuill
+# Logbook of BlazaresQuill
 
 This document is an immutable, reverse-chronological journal of decisions, state changes, discoveries, and significant project events.
 
@@ -111,7 +111,7 @@ Typical categories include:
 ---
 **Timestamp:** 2026-02-10 11:45 UTC  
 **Author:** Codex  
-**Entry:** Decision: Adopted Magnetar canonical documentation set as mandatory baseline for MagnetarQuill; governance files scheduled under `ms-01`.
+**Entry:** Decision: Adopted Blazares canonical documentation set as mandatory baseline for BlazaresQuill; governance files scheduled under `ms-01`.
 
 ---
 **Timestamp:** 2026-02-10 10:30 UTC  

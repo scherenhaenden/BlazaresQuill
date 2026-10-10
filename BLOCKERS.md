@@ -1,4 +1,4 @@
-# Blockers for MagnetarQuill
+# Blockers for BlazaresQuill
 
 ## Blockers Table
 | ID | Description | Creation Date | Owner | Status |

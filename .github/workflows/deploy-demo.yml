@@ -30,7 +30,7 @@ jobs:
 
       # 5. Demo-Projekt mit Library bauen
       - name: Build Demo Project
-        run: npm run build -- --base-href=/MagnetarQuill/
+        run: npm run build -- --base-href=/BlazaresQuill/
 
       # 6. Dateien mit GitHub Pages veröffentlichen
       - name: Deploy to GitHub Pages

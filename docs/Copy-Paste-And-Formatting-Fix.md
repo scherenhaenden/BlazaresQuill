@@ -11,13 +11,13 @@ Use the Node/npm versions that match the target branch lockfile when validating 
 
 ## Affected Files
 
-- `projects/lib-magnetar-quill/src/lib/components/editor/editor.component.ts`
-- `projects/lib-magnetar-quill/src/lib/services/content.service.ts`
-- `projects/lib-magnetar-quill/src/lib/services/formatting.service.ts`
-- `projects/lib-magnetar-quill/src/lib/components/editor/editor.component.spec.ts`
-- `projects/lib-magnetar-quill/src/lib/services/formatting.service.spec.ts`
+- `projects/lib-blazares-quill/src/lib/components/editor/editor.component.ts`
+- `projects/lib-blazares-quill/src/lib/services/content.service.ts`
+- `projects/lib-blazares-quill/src/lib/services/formatting.service.ts`
+- `projects/lib-blazares-quill/src/lib/components/editor/editor.component.spec.ts`
+- `projects/lib-blazares-quill/src/lib/services/formatting.service.spec.ts`
 - `package.json`
-- `projects/lib-magnetar-quill/package.json`
+- `projects/lib-blazares-quill/package.json`
 - `package-lock.json`
 
 ## Copy/Paste Fix
@@ -44,7 +44,7 @@ This keeps paste behavior aligned with normal typing:
 1. DOM changes.
 2. `ContentService` receives the updated HTML.
 3. `EditorComponent.contentChanged` emits.
-4. `LibMagnetarQuillComponent.contentChange` emits outward.
+4. `LibBlazaresQuillComponent.contentChange` emits outward.
 
 ### Selection Fix After Paste
 
@@ -92,7 +92,7 @@ This is important because `ToolbarComponent.withEditorSelection(...)` restores t
 
 ### Problem
 
-When two `magnetar-quill` instances were bound to the same external `content` value, normal typing propagated between editors, but toolbar formatting did not reliably preserve the same HTML in the second editor.
+When two `blazares-quill` instances were bound to the same external `content` value, normal typing propagated between editors, but toolbar formatting did not reliably preserve the same HTML in the second editor.
 
 The first phase of the fix made toolbar actions emit the active editor HTML, but the receiving editor still rendered different HTML because the inbound sync path used Angular HTML sanitization. That path preserved the text but stripped inline formatting styles such as:
 
@@ -119,7 +119,7 @@ The editor sync path now sanitizes inbound editor HTML without dropping safe for
 The root package and library package are both set to `0.10.4`:
 
 - `package.json`
-- `projects/lib-magnetar-quill/package.json`
+- `projects/lib-blazares-quill/package.json`
 
 The root package-lock version was updated to match. Version `0.10.4` (bumped from `0.10.3`) is a patch release for bound-editor formatting synchronization and safe editor HTML rehydration.
 
@@ -135,19 +135,19 @@ nvm use 24.16.0
 Run the paste regression spec:
 
 ```bash
-npx ng test lib-magnetar-quill --include projects/lib-magnetar-quill/src/lib/components/editor/editor.component.spec.ts --watch=false --no-progress --code-coverage=false
+npx ng test lib-blazares-quill --include projects/lib-blazares-quill/src/lib/components/editor/editor.component.spec.ts --watch=false --no-progress --code-coverage=false
 ```
 
 Run the formatting regression spec:
 
 ```bash
-npx ng test lib-magnetar-quill --include projects/lib-magnetar-quill/src/lib/services/formatting.service.spec.ts --watch=false --no-progress --code-coverage=false
+npx ng test lib-blazares-quill --include projects/lib-blazares-quill/src/lib/services/formatting.service.spec.ts --watch=false --no-progress --code-coverage=false
 ```
 
 Run the library build:
 
 ```bash
-npx ng build lib-magnetar-quill
+npx ng build lib-blazares-quill
 ```
 
 ## Regression Coverage Added

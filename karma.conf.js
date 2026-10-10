@@ -26,7 +26,7 @@ module.exports = function (config) {
     },
 
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/lib-magnetar-quill'),
+      dir: require('path').join(__dirname, './coverage/lib-blazares-quill'),
       subdir: '.',
       reporters: [
         { type: 'html' },

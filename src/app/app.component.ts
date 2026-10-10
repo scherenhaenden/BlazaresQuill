@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ElementRef, ViewChild, HostListener, AfterViewInit } from '@angular/core';
-import { LibMagnetarQuillComponent, type EditorTheme } from "lib-magnetar-quill";
+import { LibBlazaresQuillComponent, type EditorTheme } from "lib-blazares-quill";
 import { TestText } from './test-text';
 import { NgIf } from "@angular/common";
 import { FormsModule } from "@angular/forms";
@@ -19,7 +19,7 @@ import { FormsModule } from "@angular/forms";
 
 @Component({
     selector: 'app-root',
-    imports: [LibMagnetarQuillComponent, NgIf, FormsModule],
+    imports: [LibBlazaresQuillComponent, NgIf, FormsModule],
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.less',
@@ -30,7 +30,7 @@ export class AppComponent implements AfterViewInit {
    * The title of the demo application.
    * @public
    */
-  public title = 'MagnetarQuill Demo';
+  public title = 'BlazaresQuill Demo';
 
   /**
    * A flag to control the visibility of the live preview pane.

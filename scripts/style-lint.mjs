@@ -3,7 +3,7 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const TARGET_ROOTS = [
-  'projects/lib-magnetar-quill/src/lib',
+  'projects/lib-blazares-quill/src/lib',
   'src/app'
 ];
 

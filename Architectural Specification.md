@@ -1,10 +1,10 @@
-# **MagnetarQuill - Architectural Specification** 🏗️📐
+# **BlazaresQuill - Architectural Specification** 🏗️📐
 
 ---
 
 ### **1. System Overview** 🌌
 
-**MagnetarQuill** is fundamentally a **WYSIWYG editor component/library** built using **Angular** for the frontend. Its core architecture prioritizes a rich client-side editing experience, flexibility through plugins, and ease of integration into Angular applications.
+**BlazaresQuill** is fundamentally a **WYSIWYG editor component/library** built using **Angular** for the frontend. Its core architecture prioritizes a rich client-side editing experience, flexibility through plugins, and ease of integration into Angular applications.
 
 While the core library operates on the client-side, the architecture allows for *optional future integration* with backend systems to enable advanced features like real-time collaboration, user profiles, and server-side document storage/processing.
 
@@ -49,7 +49,7 @@ The primary user interface for accessing formatting and editor commands.
 ### **3. Frontend Architecture** 🧱
 
 #### **3.1. Key Architectural Elements**
--   **Core Editor Component (`LibMagnetarQuillComponent`)**: The main component housing the `contenteditable` area and orchestrating interactions. Standalone component design preferred.
+-   **Core Editor Component (`LibBlazaresQuillComponent`)**: The main component housing the `contenteditable` area and orchestrating interactions. Standalone component design preferred.
 -   **Toolbar Component**: Provides the UI controls (as described above). Likely a separate standalone component.
 -   **Formatting Service**: Centralizes the logic for applying/removing text formats, interacting with the DOM/selection.
 -   **Selection Service**: Manages and provides information about the current user selection within the editor.
@@ -67,7 +67,7 @@ The primary user interface for accessing formatting and editor commands.
 
 ### **4. Potential Backend Integration (Future/Optional)** ☁️
 
-The core MagnetarQuill library is backend-agnostic. However, for features beyond basic client-side editing, integration with a backend service may be necessary.
+The core BlazaresQuill library is backend-agnostic. However, for features beyond basic client-side editing, integration with a backend service may be necessary.
 
 #### **4.1. Potential Use Cases for a Backend**
 -   **Real-Time Collaboration**: Synchronizing edits between multiple users.

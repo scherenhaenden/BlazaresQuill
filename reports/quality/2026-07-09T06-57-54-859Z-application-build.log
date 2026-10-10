@@ -1,5 +1,5 @@
 
-> magnetar-quill@0.10.3 build
+> blazares-quill@0.10.3 build
 > ng build
 
 ❯ Building...
@@ -13,7 +13,7 @@ styles-O2CGLES7.css   | styles        |  27 bytes |                27 bytes
 
 Application bundle generation complete. [3.074 seconds] - 2026-07-09T06:57:58.361Z
 
-Output location: /home/edward/Development/MagnetarQuill/dist/magnetar-quill
+Output location: /home/edward/Development/BlazaresQuill/dist/blazares-quill
 
 ▲ [WARNING] bundle initial exceeded maximum budget. Budget 500.00 kB was not met by 486.26 kB with a total of 986.26 kB.
 

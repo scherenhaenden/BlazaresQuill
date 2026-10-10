@@ -13,7 +13,7 @@ upgrade to the latest published release before reporting an issue.
 ## Reporting a Vulnerability
 
 Please report suspected vulnerabilities privately through [GitHub's private
-security advisory form](https://github.com/scherenhaenden/MagnetarQuill/security/advisories/new).
+security advisory form](https://github.com/scherenhaenden/BlazaresQuill/security/advisories/new).
 Include a clear description, affected versions, reproduction steps or a proof
 of concept, and any potential impact.
 

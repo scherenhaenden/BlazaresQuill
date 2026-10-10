@@ -1,4 +1,4 @@
-# Requirements for MagnetarQuill
+# Requirements for BlazaresQuill
 
 ## Functional Requirements
 ### Must-Have
